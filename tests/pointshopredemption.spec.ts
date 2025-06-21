@@ -38,4 +38,5 @@ test('Successful redeem pointshop', async ({ page }) => {
   await page.getByRole('button', { name: 'Proceed to Checkout' }).click();
   await page.getByRole('button', { name: 'Confirm' }).click();
   await page.getByRole('button', { name: 'Go To Rewards' }).click();
+  //test
 });
