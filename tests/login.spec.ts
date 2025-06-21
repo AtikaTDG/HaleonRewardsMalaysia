@@ -13,7 +13,7 @@ test('Successful Login', async ({ page }) => {
   await page.getByRole('button', { name: 'Done' }).click();
 });
 
-test('Unsuccessful Login', async ({ page }) => {
+test('Unsuccessful Login (Wrong OTP Code)', async ({ page }) => {
   await page.goto('https://my.haleon-rewards.d-rive.net/login');
   await page.getByRole('textbox', { name: 'Your phone number' }).click();
   await page.getByRole('textbox', { name: 'Your phone number' }).fill('137336651');

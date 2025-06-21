@@ -1,0 +1,22 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://my.haleon-rewards.d-rive.net",
+      "localStorage": [
+        {
+          "name": "HALEON-REWARDS_USER_TOKEN",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI0YmMyODYxOC03Y2FiLTQzNDAtYjI5ZC02MDFiMDgyMTQzNDciLCJjb21Vc2VySWQiOiIwNjg0MjNkMC0yMTI4LTQ1ZTQtODE5Ny03MTNhYzhjN2VmNmEiLCJjb21wYW55SWQiOiIzOTVlMDM1OS04OWExLTQ2ZDQtYTdlNS0zYzBlZTQwYjU2N2YiLCJyb2xlIjoiQ09OU1VNRVIiLCJwcm9maWxlSW5mbyI6bnVsbCwicmV0YWlsZXJJZHMiOltdLCJwcm9tb3RlcklkcyI6W10sImRzcklkIjpudWxsLCJzdGF0dXMiOiJBQ1RJVkUiLCJpYXQiOjE3NTA0OTI5OTZ9.Lr3dGXxkq6WSrn5d11IejaYChhXXQFAiFQtByMQgeDU"
+        },
+        {
+          "name": "HALEON-REWARDS_LANG",
+          "value": "en"
+        },
+        {
+          "name": "REWARD_DETECTED",
+          "value": "false"
+        }
+      ]
+    }
+  ]
+}
