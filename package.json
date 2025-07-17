@@ -4,7 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:list": "playwright test --list",
+    "test:auth": "NO_AUTH=1 playwright test tests/autologin.spec.ts",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:register": "playwright test tests/register.spec.ts",
+    "test:upload": "playwright test tests/uploadreceipt.spec.ts",
+    "test:profile": "playwright test tests/profile.spec.ts",
+    "test:rewards": "playwright test tests/rewards.spec.ts",
+    "test:system": "playwright test tests/system-business-logic.spec.ts"
   },
   "keywords": [],
   "author": "",
